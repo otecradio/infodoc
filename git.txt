@@ -1,0 +1,9 @@
+git config --global user.name "otecradio"
+git config --global user.email "otecradio@gmail.com"
+cd e:/py/infodoc
+git init	создание гит
+git satus	статус файлов в гит
+git add .	добавить в гит все файлы
+git commit -m "comment 1"	создаем слепок фалов
+git remote add origin https://github.com/otecradio/infodoc.git		выбираем удаленный репозиторий куда грузить
+git push -u origin main		грузим
